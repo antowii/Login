@@ -36,11 +36,12 @@ class MainActivity : AppCompatActivity() {
         val usuario =usernameEditText.text.toString()
         val clave = passwordEditText.text.toString()
         val i = Intent(this, pagina1::class.java)
-        startActivity(i)
+
 
         if(usuario == "adm" && clave == "1234") {
             //para mostrar en pantalla si es o no el usuario
             Toast.makeText(this, "Usuario Correcto", Toast.LENGTH_SHORT).show()
+            startActivity(i)
         }else{
             Toast.makeText(this, "Usuario no existe", Toast.LENGTH_SHORT).show()
         }
