@@ -10,7 +10,7 @@ class pagina1 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_pagina1)
 
-        val btn: Button = findViewById(R.id.btnNext)
+        val btn: Button = findViewById(R.id.btnNext2)
 
         btn.setOnClickListener {
             val intent: Intent = Intent(this, pagina2::class.java)

@@ -8,7 +8,7 @@
     android:background="@drawable/pag2">
 
     <Button
-        android:id="@+id/btnNext"
+        android:id="@+id/btnNext2"
         android:layout_width="163dp"
         android:layout_height="42dp"
         android:backgroundTint="#EA0808"
