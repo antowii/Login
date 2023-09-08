@@ -40,10 +40,10 @@ class MainActivity : AppCompatActivity() {
 
         if(usuario == "adm" && clave == "1234") {
             //para mostrar en pantalla si es o no el usuario
-            Toast.makeText(this, "Usuario Correcto", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Ingreso exitoso", Toast.LENGTH_SHORT).show()
             startActivity(i)
         }else{
-            Toast.makeText(this, "Usuario no existe", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Contraseña incorrecta", Toast.LENGTH_SHORT).show()
         }
 
     }
