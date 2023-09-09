@@ -13,31 +13,34 @@
         android:theme="@style/Theme.Login"
         tools:targetApi="31">
         <activity
-            android:name=".pagina4"
-            android:exported="false"
-            android:launchMode="singleInstance"/>
-        <activity
-            android:name=".pagina3"
-            android:exported="false"
-            android:launchMode="singleInstance"/>
-        <activity
-            android:name=".pagina2"
-            android:exported="false"
-            android:launchMode="singleInstance"/>
-        <activity
-            android:name=".pagina1"
-            android:exported="false"
-            android:launchMode="singleInstance"/>
-        <activity
-            android:name=".MainActivity"
-            android:exported="true"
-            android:launchMode="singleInstance">
+            android:name=".pagina5"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".pagina4"
+            android:exported="false"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name=".pagina3"
+            android:exported="false"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name=".pagina2"
+            android:exported="false"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name=".pagina1"
+            android:exported="false"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:launchMode="singleInstance"/>
     </application>
 
 </manifest>
