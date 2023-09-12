@@ -48,10 +48,10 @@
 
     <Button
         android:id="@+id/btnInicio"
-        android:layout_width="83dp"
-        android:layout_height="wrap_content"
+        android:layout_width="136dp"
+        android:layout_height="41dp"
         android:backgroundTint="#EA0808"
-        android:text="Inicio"
+        android:text="Cerrar Sesión"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

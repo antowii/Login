@@ -35,4 +35,5 @@ class pagina2 : AppCompatActivity() {
             startActivity(intent)
         }
     }
+
 }
