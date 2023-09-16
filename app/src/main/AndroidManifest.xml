@@ -13,13 +13,18 @@
         android:theme="@style/Theme.Login"
         tools:targetApi="31">
         <activity
+            android:name=".pagina6"
+            android:exported="false" />
+        <activity
             android:name=".pagina5"
             android:exported="false" />
-            <!--<intent-filter>
+        <!--
+<intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>-->
+            </intent-filter>
+        -->
         <activity
             android:name=".pagina4"
             android:exported="false"
